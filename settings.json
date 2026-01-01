@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "icons",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontLigatures":true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders":false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+    },
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false
+}
