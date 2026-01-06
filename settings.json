@@ -1,23 +1,107 @@
+
 {
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "icons",
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 1.8,
-    "editor.rulers": [80, 120],
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.fontLigatures":true,
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders":false,
-    "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset"
-    },
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false
+  "workbench.iconTheme": "bearded-icons",
+  // "workbench.productIconTheme": "icons-carbon",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // --- Typography ---
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono NL','JetBrains Mono', 'Zed Mono', monospace",
+  "editor.lineHeight": 1.8,
+  "editor.fontWeight": "400",
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.rulers": [80,100],
+  // --- UI Minimalism ---
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrenceHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.bracketPairColorization.enabled": true,
+
+  // --- Breadcrumbs (The file path bar) ---
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": false,
+  "breadcrumbs.symbolPath": "off",
+
+  // --- Tab & Navigation ---
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.labelFormat": "default",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.navigationControl": true,
+
+  // --- Editor Behavior ---
+  "editor.lineNumbers": "on",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.matchBrackets": "never",
+  "editor.renderWhitespace": "none",
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "none",
+  "windowColors.askToColorizeRepoWhenOpened": false,
+"window.customTitleBarVisibility": "auto",
+
+  // --- COLOR CUSTOMIZATIONS ---
+  "workbench.colorCustomizations": {
+    "[Ayu Mirage Zed]": {
+      "editor.background": "#1A1A1A",
+      "editorGutter.background": "#1A1A1A",
+      
+      // Breadcrumb styling to match your screenshot
+      "breadcrumb.background": "#1A1A1A",
+      "breadcrumb.foreground": "#666666",
+      "breadcrumb.focusForeground": "#999999",
+      "breadcrumb.activeSelectionForeground": "#AAAAAA",
+
+      "sideBar.background": "#141414",
+      "sideBar.border": "#141414",
+      "activityBar.background": "#141414",
+      "activityBar.border": "#141414",
+      "editorGroupHeader.tabsBackground": "#141414",
+      "editorGroupHeader.tabsBorder": "#141414",
+      "tab.activeBackground": "#141414",
+      "tab.inactiveBackground": "#141414",
+      "tab.border": "#141414",
+      "terminal.background": "#141414",
+      "panel.background": "#141414",
+      "panel.border": "#141414",
+      "statusBar.background": "#141414",
+      "statusBar.border": "#141414",
+      
+      "focusBorder": "#00000000",
+      "input.border": "#00000000",
+      "input.background": "#252525",
+      "quickInput.background": "#141414",
+      "quickInput.foreground": "#CCCCCC",
+      "quickInputList.focusBackground": "#2d2d2d",
+      "quickInputTitle.background": "#141414",
+      "pickerGroup.foreground": "#575757",
+      "widget.border": "#333333",
+      "widget.shadow": "#000000aa"
+    }
+  },
+
+  // --- CSS LOADER (This makes the "/" happen) ---
+  "vscode_custom_css.imports": [
+    "file:///Users/[redacted]/.vscode/zed-style.css",
+    "file:///Users/[redacted]/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "biome.suggestInstallingGlobally": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+},
+"workbench.colorTheme": "Min Dark",
+"security.workspace.trust.untrustedFiles": "open",
+"github.copilot.nextEditSuggestions.enabled": true,
+"window.commandCenter": false
 }
